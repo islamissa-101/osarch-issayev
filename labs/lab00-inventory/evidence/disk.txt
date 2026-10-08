@@ -1,0 +1,28 @@
+
+Number FriendlyName                         SerialNumber                             MediaType CanPool OperationalStat
+                                                                                                       us
+------ ------------                         ------------                             --------- ------- ---------------
+0      NVMe WD PC SN5000S SDEQNSJ-1T00-1002 E823_8FA6_BF53_0001_001B_448B_42AD_ACE0. SSD       False   OK             
+
+ObjectId             : {1}\\DESKTOP-0FCHFBU\root/Microsoft/Windows/Storage/Providers_v2\WSP_Volume.ObjectId="{cbb89656-bf57-11f1-a4ec-806e6f6e6963}:VO:\\?\Volume{73377653-daf9-432a-a4ec-c64b0d97d20e}\"
+PassThroughClass     : 
+PassThroughIds       : 
+PassThroughNamespace : 
+PassThroughServer    : 
+UniqueId             : \\?\Volume{73377653-daf9-432a-a4ec-c64b0d97d20e}\
+AllocationUnitSize   : 4096
+DedupMode            : NotAvailable
+DriveLetter          : C
+DriveType            : Fixed
+FileSystem           : NTFS
+FileSystemLabel      : 
+FileSystemType       : NTFS
+HealthStatus         : Healthy
+OperationalStatus    : OK
+Path                 : \\?\Volume{73377653-daf9-432a-a4ec-c64b0d97d20e}\
+ReFSDedupMode        : NotAvailable
+Size                 : 1023300071424
+SizeRemaining        : 807609094144
+PSComputerName       : 
+
+

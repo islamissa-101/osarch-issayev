@@ -1,0 +1,6 @@
+
+DeviceID Name                         Caption                               MaxClockSpeed SocketDesignation Manufactur
+                                                                                                            er
+-------- ----                         -------                               ------------- ----------------- ----------
+CPU0     Intel(R) Core(TM) i7-14650HX Intel64 Family 6 Model 183 Stepping 1 2200          U3E1              GenuineIn…
+

@@ -1,0 +1,8 @@
+FROM LINUX
+192.168.34.135 ping statistics
+4 packets transmitted, 4 received, 0% packet loss, time 3097ms rtt min/avg/max/mdev = 0.374/0.570/0.775/0.149 ms
+FROM WINDOWS
+Ping statistics for 192.168.34.133:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms

@@ -1,5 +1,5 @@
-# Feedback on <Islam>'s BUILD.md
-Reviewer: <Saiazhan>
+# Feedback on Islam's BUILD.md
+Reviewer: Saiazhan
 Commit reviewed: <https://github.com/islamissa-101/osarch-issayev/tree/main/tickets/ticket1-vm-build-doc>
 Hypervisor I used: VMware Fusion 13.5 (Host: macOS Sonoma, Apple Silicon M-series ARM64)
 

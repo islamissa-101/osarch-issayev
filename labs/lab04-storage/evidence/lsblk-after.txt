@@ -1,0 +1,19 @@
+NAME                       SIZE TYPE  FSTYPE            MOUNTPOINT
+loop0                      1.5M loop  squashfs          /snap/hwctl/123
+loop1                     66.8M loop  squashfs          /snap/core24/1643
+loop2                     50.1M loop  squashfs          /snap/snapd/27710
+loop3                      1.5M loop  squashfs          /snap/hwctl/131
+sda                         20G disk                    
+├─sda1                       1M part                    
+├─sda2                     1.8G part  ext4              /boot
+└─sda3                    18.2G part  LVM2_member       
+  └─ubuntu--vg-ubuntu--lv   10G lvm   ext4              /
+sdb                          2G disk                    
+└─sdb1                       2G part  linux_raid_member 
+  └─md0                      2G raid1 ext4              /mnt/mirror
+sdc                          2G disk                    
+└─sdc1                       2G part  linux_raid_member 
+sdd                          2G disk                    
+└─sdd1                       2G part  linux_raid_member 
+  └─md0                      2G raid1 ext4              /mnt/mirror
+sr0                        2.7G rom   iso9660           

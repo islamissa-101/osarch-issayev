@@ -1,0 +1,135 @@
+##### 0. Checksum (write it down)
+919027f1f8c71d85cba3f12aad0f6c927d4e0450cfb2a2d63378a69f14cab270  staff-broken.csv
+
+##### 1. file / file -e csv
+staff-broken.csv: Non-ISO extended-ASCII text, with CRLF line terminators
+staff-broken.csv: Non-ISO extended-ASCII text, with CRLF line terminators
+
+##### 2. First 16 bytes
+00000000: d2e0 e12e b93b d4c8 ce3b c4ee ebe6 edee  .....;...;......
+--- first 20 lines of the dump (names), not evidence:
+00000000: d2e0 e12e b93b d4c8 ce3b c4ee ebe6 edee  .....;...;......
+00000010: f1f2 fc3b cef2 e4e5 eb3b 452d 6d61 696c  ...;.....;E-mail
+00000020: 3bc4 e0f2 e020 eff0 e8b8 ece0 0d0a 3130  ;.... ........10
+00000030: 3031 3b8d e0f1 fbec eee2 e020 a3eb e8ff  01;........ ....
+00000040: 20d1 e5f0 b3ea 9dfb e7fb 3bc3 ebe0 e2ed   .........;.....
+00000050: fbe9 20e1 f3f5 e3e0 ebf2 e5f0 3bc1 f3f5  .. .........;...
+00000060: e3e0 ebf2 e5f0 e8ff 3b61 2e6b 6173 7379  ........;a.kassy
+00000070: 6d6f 7661 4074 756d 6172 2d6f 6666 6963  mova@tumar-offic
+00000080: 652e 6b7a 3b31 322e 3033 2e32 3031 390d  e.kz;12.03.2019.
+00000090: 0a31 3030 323b c8e2 e0ed eee2 20d1 e5f0  .1002;...... ...
+000000a0: e3e5 e920 cfe5 f2f0 eee2 e8f7 3bc4 e8f0  ... ........;...
+000000b0: e5ea f2ee f020 efee 20ef f0ee e4e0 e6e0  ..... .. .......
+000000c0: ec3b cef2 e4e5 eb20 eff0 eee4 e0e6 3b73  .;..... ......;s
+000000d0: 2e69 7661 6e6f 7640 7475 6d61 722d 6f66  .ivanov@tumar-of
+000000e0: 6669 6365 2e6b 7a3b 3031 2e30 392e 3230  fice.kz;01.09.20
+000000f0: 3137 0d0a 3130 3033 3bcd a2f0 ebe0 edee  17..1003;.......
+00000100: e220 aae0 ebfb ece6 e0ed 20c5 f0eb e0ed  . ........ .....
+00000110: a2eb fb3b c2e5 e12d f0e0 e7f0 e0e1 eef2  ...;...-........
+00000120: f7e8 ea3b c8d2 2dee f2e4 e5eb 3b67 2e6e  ...;..-.....;g.n
+00000130: 7572 6c61 6e6f 7640 7475 6d61 722d 6f66  urlanov@tumar-of
+
+##### 3. BOM?
+No BOM — first bytes are already data
+
+##### 4. Valid UTF-8?
+NOT UTF-8: iconv: illegal input sequence at position 0
+
+##### 5. Candidate code pages (first 5 lines each)
+=== CP1251
+Таб.№;ФИО;Должность;Отдел;E-mail;Дата приёма
+1001;Ќасымова Јлия Серікќызы;Главный бухгалтер;Бухгалтерия;a.kassymova@tumar-office.kz;12.03.2019
+1002;Иванов Сергей Петрович;Директор по продажам;Отдел продаж;s.ivanov@tumar-office.kz;01.09.2017
+1003;Нўрланов Єалымжан Ерланўлы;Веб-разработчик;ИТ-отдел;g.nurlanov@tumar-office.kz;15.06.2022
+1004;Петрова Анна Викторовна;Менеджер по продажам;Отдел продаж;a.petrova@tumar-office.kz;20.01.2021
+=== CP866
+╥рс.╣;╘╚╬;─юыцэюёЄ№;╬Єфхы;E-mail;─рЄр яЁш╕ьр
+1001;Нрё√ьютр гыш  ╤хЁ│ъЭ√ч√;├ыртэ√щ сєїурыЄхЁ;┴єїурыЄхЁш ;a.kassymova@tumar-office.kz;12.03.2019
+1002;╚трэют ╤хЁухщ ╧хЄЁютшў;─шЁхъЄюЁ яю яЁюфрцрь;╬Єфхы яЁюфрц;s.ivanov@tumar-office.kz;01.09.2017
+1003;═вЁырэют кры√ьцрэ ┼Ёырэвы√;┬хс-ЁрчЁрсюЄўшъ;╚╥-юЄфхы;g.nurlanov@tumar-office.kz;15.06.2022
+1004;╧хЄЁютр └ээр ┬шъЄюЁютэр;╠хэхфцхЁ яю яЁюфрцрь;╬Єфхы яЁюфрц;a.petrova@tumar-office.kz;20.01.2021
+=== KOI8-R
+рЮА.╧;тхн;дНКФМНЯРЭ;нРДЕК;E-mail;дЮРЮ ОПХ╦ЛЮ
+1001;█ЮЯШЛНБЮ ёКХЪ яЕПЁЙ²ШГШ;цКЮБМШИ АСУЦЮКРЕП;аСУЦЮКРЕПХЪ;a.kassymova@tumar-office.kz;12.03.2019
+1002;хБЮМНБ яЕПЦЕИ оЕРПНБХВ;дХПЕЙРНП ОН ОПНДЮФЮЛ;нРДЕК ОПНДЮФ;s.ivanov@tumar-office.kz;01.09.2017
+1003;м╒ПКЮМНБ ╙ЮКШЛФЮМ еПКЮМ╒КШ;бЕА-ПЮГПЮАНРВХЙ;хр-НРДЕК;g.nurlanov@tumar-office.kz;15.06.2022
+1004;оЕРПНБЮ юММЮ бХЙРНПНБМЮ;лЕМЕДФЕП ОН ОПНДЮФЮЛ;нРДЕК ОПНДЮФ;a.petrova@tumar-office.kz;20.01.2021
+=== RK1048
+Таб.№;ФИО;Должность;Отдел;E-mail;Дата приёма
+1001;Қасымова Әлия Серікқызы;Главный бухгалтер;Бухгалтерия;a.kassymova@tumar-office.kz;12.03.2019
+1002;Иванов Сергей Петрович;Директор по продажам;Отдел продаж;s.ivanov@tumar-office.kz;01.09.2017
+1003;Нұрланов Ғалымжан Ерланұлы;Веб-разработчик;ИТ-отдел;g.nurlanov@tumar-office.kz;15.06.2022
+1004;Петрова Анна Викторовна;Менеджер по продажам;Отдел продаж;a.petrova@tumar-office.kz;20.01.2021
+=== PT154
+Таб.№;ФИО;Должность;Отдел;E-mail;Дата приёма
+1001;Қасымова Јлия Серікқызы;Главный бухгалтер;Бухгалтерия;a.kassymova@tumar-office.kz;12.03.2019
+1002;Иванов Сергей Петрович;Директор по продажам;Отдел продаж;s.ivanov@tumar-office.kz;01.09.2017
+1003;Нўрланов Әалымжан Ерланўлы;Веб-разработчик;ИТ-отдел;g.nurlanov@tumar-office.kz;15.06.2022
+1004;Петрова Анна Викторовна;Менеджер по продажам;Отдел продаж;a.petrova@tumar-office.kz;20.01.2021
+
+##### 6. Kazakh letters per candidate (Ә Ғ Қ Ң Ө Ұ Ү Һ І, both cases)
+CP1251: 10 Kazakh letters
+RK1048: 60 Kazakh letters
+PT154: 26 Kazakh letters
+--- lines that differ between RK1048 and PT154:
+2c2
+< 1001;Қасымова Әлия Серікқызы;Главный бухгалтер;Бухгалтерия;a.kassymova@tumar-office.kz;12.03.2019
+---
+> 1001;Қасымова Јлия Серікқызы;Главный бухгалтер;Бухгалтерия;a.kassymova@tumar-office.kz;12.03.2019
+4c4
+< 1003;Нұрланов Ғалымжан Ерланұлы;Веб-разработчик;ИТ-отдел;g.nurlanov@tumar-office.kz;15.06.2022
+---
+> 1003;Нўрланов Әалымжан Ерланўлы;Веб-разработчик;ИТ-отдел;g.nurlanov@tumar-office.kz;15.06.2022
+6c6
+< 1005;Өтебаев Ерлан Маратұлы;Системный администратор;ИТ-отдел;e.otebayev@tumar-office.kz;03.04.2020
+---
+> 1005;Ҙтебаев Ерлан Маратўлы;Системный администратор;ИТ-отдел;e.otebayev@tumar-office.kz;03.04.2020
+9c9
+< 1008;Жұмабеков Дәурен Асқарұлы;Менеджер по продажам;Отдел продаж;d.zhumabekov@tumar-office.kz;22.08.2022
+---
+> 1008;Жўмабеков Дјурен Асқарўлы;Менеджер по продажам;Отдел продаж;d.zhumabekov@tumar-office.kz;22.08.2022
+11,12c11,12
+< 1010;Әбенова Гүлнар Төлеуқызы;HR-менеджер;Отдел кадров;g.abenova@tumar-office.kz;09.10.2016
+< 1011;Сәрсенбаев Нұрсұлтан Бекұлы;Веб-разработчик;ИТ-отдел;n.sarsenbayev@tumar-office.kz;01.03.2024
+---
+> 1010;Јбенова Гҝлнар Тҙлеуқызы;HR-менеджер;Отдел кадров;g.abenova@tumar-office.kz;09.10.2016
+> 1011;Сјрсенбаев Нўрсўлтан Бекўлы;Веб-разработчик;ИТ-отдел;n.sarsenbayev@tumar-office.kz;01.03.2024
+14,15c14,15
+< 1013;Үсенова Мөлдір Ғабитқызы;Офис-менеджер;Администрация;m.ussenova@tumar-office.kz;28.02.2021
+< 1014;Ахметов Бауыржан Қайратұлы;Менеджер по закупкам;Отдел закупок;b.akhmetov@tumar-office.kz;12.12.2019
+---
+> 1013;Ҝсенова Мҙлдір Әабитқызы;Офис-менеджер;Администрация;m.ussenova@tumar-office.kz;28.02.2021
+> 1014;Ахметов Бауыржан Қайратўлы;Менеджер по закупкам;Отдел закупок;b.akhmetov@tumar-office.kz;12.12.2019
+17c17
+< 1016;Тұрсынов Мұхтар Әлібекұлы;Инженер техподдержки;ИТ-отдел;m.tursynov@tumar-office.kz;19.09.2022
+---
+> 1016;Тўрсынов Мўхтар Јлібекўлы;Инженер техподдержки;ИТ-отдел;m.tursynov@tumar-office.kz;19.09.2022
+19c19
+< 1018;Оспанова Іңкәр Нұрболқызы;Дизайнер;Маркетинг;i.ospanova@tumar-office.kz;14.01.2025
+---
+> 1018;Оспанова Іҫкјр Нўрболқызы;Дизайнер;Маркетинг;i.ospanova@tumar-office.kz;14.01.2025
+21,22c21,22
+< 1020;Бекмұхамбетова Ақбота Жәнібекқызы;Менеджер по продажам;Отдел продаж;a.bekmukhambetova@tumar-office.kz;08.08.2023
+< 1021;Һашимов Рүстем Фаридұлы;Водитель;Администрация;r.hashimov@tumar-office.kz;21.03.2018
+---
+> 1020;Бекмўхамбетова Ақбота Жјнібекқызы;Менеджер по продажам;Отдел продаж;a.bekmukhambetova@tumar-office.kz;08.08.2023
+> 1021;Һашимов Рҝстем Фаридўлы;Водитель;Администрация;r.hashimov@tumar-office.kz;21.03.2018
+24c24
+< 1023;Мұқанов Ғани Серікұлы;Финансовый директор;Финансовый отдел;g.mukanov@tumar-office.kz;01.02.2015
+---
+> 1023;Мўқанов Әани Серікўлы;Финансовый директор;Финансовый отдел;g.mukanov@tumar-office.kz;01.02.2015
+26c26
+< 1025;Шәріпова Жұлдыз Өміртайқызы;Бухгалтер;Бухгалтерия;z.sharipova@tumar-office.kz;04.07.2024
+---
+> 1025;Шјріпова Жўлдыз Ҙміртайқызы;Бухгалтер;Бухгалтерия;z.sharipova@tumar-office.kz;04.07.2024
+
+##### 7. Line ending
+M-RM-`M-a.M-9;M-TM-HM-N;M-DM-nM-kM-fM-mM-nM-qM-rM-|;M-NM-rM-dM-eM-k;E-mail;M-DM-`M-rM-` M-oM-pM-hM-8M-lM-`^M$
+1001;M-^MM-`M-qM-{M-lM-nM-bM-` M-#M-kM-hM-^? M-QM-eM-pM-3M-jM-^]M-{M-gM-{;M-CM-kM-`M-bM-mM-{M-i M-aM-sM-uM-cM-`M-kM-rM-eM-p;M-AM-sM-uM-cM-`M-kM-rM-eM-pM-hM-^?;a.kassymova@tumar-office.kz;12.03.2019^M$
+1002;M-HM-bM-`M-mM-nM-b M-QM-eM-pM-cM-eM-i M-OM-eM-rM-pM-nM-bM-hM-w;M-DM-hM-pM-eM-jM-rM-nM-p M-oM-n M-oM-pM-nM-dM-`M-fM-`M-l;M-NM-rM-dM-eM-k M-oM-pM-nM-dM-`M-f;s.ivanov@tumar-office.kz;01.09.2017^M$
+CR bytes: 26   LF bytes: 26
+-> CRLF (Windows)
+Last byte: 0a  (0a = file ends with a newline)
+
+##### 8. Separator in the header line
+commas:0  semicolons:5  tabs:0

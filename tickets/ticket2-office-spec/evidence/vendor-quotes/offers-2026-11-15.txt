@@ -1,0 +1,63 @@
+Live seller offers, read from e-katalog.kz / alfa.kz product pages on 15.11.2026 (Asia/Almaty),
+through the browser. Each block lists one product page, then seller -> price in KZT.
+Every seller listed delivers within Kazakhstan (most from Almaty).
+The offer actually used in budget.csv is marked with  <== USED.
+
+https://e-katalog.kz/INTEL-I5-14400-BOX.htm   Intel Core i5-14400 BOX
+  RS6.kz 92329 | Ants.kz 83409 | Ftmarket.kz 83010 | Otvertka.kz 93104 | Flexcom.kz 83018  <== USED
+  (Ftmarket is 8 KZT cheaper; Flexcom was used because it also supplies the SSD, UPS and monitor)
+
+https://e-katalog.kz/GIGABYTE-B760-DS3H-DDR4.htm   Gigabyte B760 DS3H DDR4
+  Vendara.kz 49587 <== USED | RS6.kz 54327 | Shop.kz 53700 | Greenprice.kz 50280 | Forcecom.kz 49770 | Neom.kz 77750
+
+https://e-katalog.kz/TEAM-GROUP-TLZGD416G3200HC16FDC01.htm   Team Vulcan Z 2x8GB DDR4-3200
+  Vendara.kz 80438 | Neom.kz 74000 | Ants.kz 73080 | RS6.kz 78510 | Greenprice.kz 73070 | Forcecom.kz 72080 <== USED
+
+https://e-katalog.kz/G-SKILL-F4-3200C16D-32GFX.htm   G.Skill Flare X 2x16GB DDR4-3200
+  RS6.kz 149864 | Ants.kz 140663 | Greenprice.kz 147225 | Vendara.kz 146941 | Forcecom.kz 131460 <== USED
+
+https://e-katalog.kz/KINGSTON-NV3.htm   Kingston NV3 1TB SNV3S/1000G
+  Vendara.kz 75479 | Ibwin.kz 82240 | RS6.kz 84466 | Flexcom.kz 75157 <== USED | Neom.kz 80730
+  Ants.kz 76518 | Direct Technologies 75150 | Otvertka.kz 95708 | Shop.kz 78990 | Greenprice.kz 76790
+
+https://e-katalog.kz/ASUS-GEFORCE-RTX-5060-DUAL-OC-8GB.htm   ASUS RTX 5060 Dual OC 8GB
+  Moon.kz 324500 | Vendara.kz 366450 | RS6.kz 300472 | Ants.kz 294250 | Direct Technologies 288750 <== USED
+
+https://e-katalog.kz/MSI-MAG.htm   MSI MAG A650BN
+  1.kz 25452 | Shop.kz 24590 | Ants.kz 28350 | Neom.kz 24300 <== USED | RS6.kz 27641
+
+https://e-katalog.kz/OCYPUS-GAMMA-C70-BLACK.htm   Ocypus Gamma C70 black
+  Shop.kz 16590 | Greenprice.kz 16580 <== USED
+
+https://e-katalog.kz/AOC-24B31H.htm   AOC 24B31H 23.8in IPS
+  Vendara.kz 38215 <== USED | RS6.kz 41833 | 1.kz 42790 | Shop.kz 42590 | Ants.kz 38722
+
+https://e-katalog.kz/MSI-MAG-275QF.htm   MSI MAG 275QF 27in QHD
+  Ants.kz 108066 | Vendara.kz 104654 <== USED | Greenprice.kz 113869 | Shop.kz 108990
+
+https://e-katalog.kz/ASUS-BE27AQ.htm   ASUS BE27AQ 27in QHD 99% sRGB
+  Ants.kz 131131 | RS6.kz 138670 | Vendara.kz 150379 | Shop.kz 142990 | Greenprice.kz 134511 | Neom.kz 135940 | Flexcom.kz 128724 <== USED
+
+https://e-katalog.kz/LOGITECH-WIRELESS-COMBO-MK270.htm   Logitech MK270
+  Ibwin.kz 15290 | RS6.kz 15905 | Vendara.kz 14695 | Ftmarket.kz 13910 <== USED | Neom.kz 15280
+
+https://e-katalog.kz/APC-BACK-UPS-750VA-BX750MI-GR.htm   APC Back-UPS BX750MI-GR
+  RS6.kz 49969 | Flexcom.kz 49536 <== USED | Stellartrade.kz 83170 | Ants.kz 53207 | Market-telecom.kz 53240
+
+https://e-katalog.kz/LOGITECH-C270.htm   Logitech C270
+  Ibwin.kz 16290 | Ftmarket.kz 13090 <== USED
+
+https://alfa.kz/pc/soft/os/microsoft/oem   Windows 11 Professional 64-bit Russian DSP OEI DVD KZ-Only (FQC-10548)
+  listings: 76980 <== USED | 82943 | 87226 | 88233 | 90067
+  (individual product pages on alfa.kz returned "502 Bad Gateway" on 15.11.2026; the category list worked)
+
+--- alternatives that were checked and NOT used (same date) ---
+AMD Ryzen 7 7700 OEM          https://e-katalog.kz/AMD-7700-OEM.htm                    from 91726 (Ants.kz)
+DDR5 2x16GB Kingston KF552C40BBK2-32  https://e-katalog.kz/KINGSTON-FURY-KF552C40BBK2-32.htm  from 264279 (Flexcom.kz)
+DDR5 2x16GB Kingston KF560C36BBE2K2-32 https://e-katalog.kz/KINGSTON-FURY-KF560C36BBE2K2-32.htm from 319510 (Direct Technologies)
+Gigabyte B650M D3HP (AM5)     https://e-katalog.kz/GIGABYTE-B650M-D3HP.htm             from 72911 (Flexcom.kz)
+Intel Core i5-14500 OEM       https://e-katalog.kz/INTEL-I5-14500-OEM.htm              from 162427 (Ants.kz)
+Intel Core i7-14700 OEM       https://e-katalog.kz/INTEL-I7-14700-OEM.htm              from 164309 (Ants.kz)
+Intel Core i5-12400 OEM       https://e-katalog.kz/INTEL-I5-12400-OEM.htm              from 76290 (Ants.kz) + cooler needed
+Inno3D RTX 5060 Twin X2 V2    https://e-katalog.kz/INNO3D-GEFORCE-RTX-5060-TWIN-X2.htm from 314106 (RS6.kz)
+LG 24MR400-B                  https://e-katalog.kz/LG-24MR400.htm                      no offers on 15.11.2026

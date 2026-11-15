@@ -1,0 +1,40 @@
+role,component,model,price_kzt,source,date
+accountant,CPU,Intel Core i5-14400 BOX (10 cores 6P+4E / 16 threads; UHD 730 iGPU; box cooler included),83018,Flexcom.kz - https://e-katalog.kz/INTEL-I5-14400-BOX.htm,2026-11-15
+accountant,Motherboard,Gigabyte B760 DS3H DDR4 (ATX; 4x DDR4; 2x M.2),49587,Vendara.kz - https://e-katalog.kz/GIGABYTE-B760-DS3H-DDR4.htm,2026-11-15
+accountant,Memory,Team Group Vulcan Z 16GB (2x8GB) DDR4-3200 TLZGD416G3200HC16FDC01,72080,Forcecom.kz - https://e-katalog.kz/TEAM-GROUP-TLZGD416G3200HC16FDC01.htm,2026-11-15
+accountant,SSD,Kingston NV3 1TB NVMe PCIe 4.0 SNV3S/1000G,75157,Flexcom.kz - https://e-katalog.kz/KINGSTON-NV3.htm,2026-11-15
+accountant,PSU,MSI MAG A650BN 650W 80+ Bronze,24300,Neom.kz - https://e-katalog.kz/MSI-MAG.htm,2026-11-15
+accountant,Case,Ocypus Gamma C70 black (ATX midi tower),16580,Greenprice.kz - https://e-katalog.kz/OCYPUS-GAMMA-C70-BLACK.htm,2026-11-15
+accountant,Monitor,AOC 24B31H 23.8in IPS 1920x1080 120Hz,38215,Vendara.kz - https://e-katalog.kz/AOC-24B31H.htm,2026-11-15
+accountant,OS licence,Windows 11 Professional 64-bit Russian DSP OEI DVD KZ-Only (FQC-10548),76980,cheapest of several listings on alfa.kz - https://alfa.kz/pc/soft/os/microsoft/oem,2026-11-15
+accountant,Keyboard + mouse,Logitech MK270 wireless combo (920-004518),13910,Ftmarket.kz - https://e-katalog.kz/LOGITECH-WIRELESS-COMBO-MK270.htm,2026-11-15
+accountant,UPS,APC Back-UPS 750VA BX750MI-GR,49536,Flexcom.kz - https://e-katalog.kz/APC-BACK-UPS-750VA-BX750MI-GR.htm,2026-11-15
+sales,CPU,Intel Core i5-14400 BOX (10 cores 6P+4E / 16 threads; UHD 730 iGPU; box cooler included),83018,Flexcom.kz - https://e-katalog.kz/INTEL-I5-14400-BOX.htm,2026-11-15
+sales,Motherboard,Gigabyte B760 DS3H DDR4 (ATX; 4x DDR4; 2x M.2),49587,Vendara.kz - https://e-katalog.kz/GIGABYTE-B760-DS3H-DDR4.htm,2026-11-15
+sales,Memory,G.Skill Flare X 32GB (2x16GB) DDR4-3200 CL16 F4-3200C16D-32GFX,131460,Forcecom.kz - https://e-katalog.kz/G-SKILL-F4-3200C16D-32GFX.htm,2026-11-15
+sales,SSD,Kingston NV3 1TB NVMe PCIe 4.0 SNV3S/1000G,75157,Flexcom.kz - https://e-katalog.kz/KINGSTON-NV3.htm,2026-11-15
+sales,PSU,MSI MAG A650BN 650W 80+ Bronze,24300,Neom.kz - https://e-katalog.kz/MSI-MAG.htm,2026-11-15
+sales,Case,Ocypus Gamma C70 black (ATX midi tower),16580,Greenprice.kz - https://e-katalog.kz/OCYPUS-GAMMA-C70-BLACK.htm,2026-11-15
+sales,Monitor,AOC 24B31H 23.8in IPS 1920x1080 120Hz,38215,Vendara.kz - https://e-katalog.kz/AOC-24B31H.htm,2026-11-15
+sales,OS licence,Windows 11 Professional 64-bit Russian DSP OEI DVD KZ-Only (FQC-10548),76980,cheapest of several listings on alfa.kz - https://alfa.kz/pc/soft/os/microsoft/oem,2026-11-15
+sales,Keyboard + mouse,Logitech MK270 wireless combo (920-004518),13910,Ftmarket.kz - https://e-katalog.kz/LOGITECH-WIRELESS-COMBO-MK270.htm,2026-11-15
+sales,Webcam,Logitech HD Webcam C270 (960-001063),13090,Ftmarket.kz - https://e-katalog.kz/LOGITECH-C270.htm,2026-11-15
+webdev,CPU,Intel Core i5-14400 BOX (10 cores 6P+4E / 16 threads; UHD 730 iGPU; box cooler included),83018,Flexcom.kz - https://e-katalog.kz/INTEL-I5-14400-BOX.htm,2026-11-15
+webdev,Motherboard,Gigabyte B760 DS3H DDR4 (ATX; 4x DDR4; 2x M.2),49587,Vendara.kz - https://e-katalog.kz/GIGABYTE-B760-DS3H-DDR4.htm,2026-11-15
+webdev,Memory,G.Skill Flare X 32GB (2x16GB) DDR4-3200 CL16 F4-3200C16D-32GFX,131460,Forcecom.kz - https://e-katalog.kz/G-SKILL-F4-3200C16D-32GFX.htm,2026-11-15
+webdev,SSD,Kingston NV3 1TB NVMe PCIe 4.0 SNV3S/1000G,75157,Flexcom.kz - https://e-katalog.kz/KINGSTON-NV3.htm,2026-11-15
+webdev,PSU,MSI MAG A650BN 650W 80+ Bronze,24300,Neom.kz - https://e-katalog.kz/MSI-MAG.htm,2026-11-15
+webdev,Case,Ocypus Gamma C70 black (ATX midi tower),16580,Greenprice.kz - https://e-katalog.kz/OCYPUS-GAMMA-C70-BLACK.htm,2026-11-15
+webdev,Monitor,MSI MAG 275QF 27in IPS 2560x1440,104654,Vendara.kz - https://e-katalog.kz/MSI-MAG-275QF.htm,2026-11-15
+webdev,OS licence,Ubuntu 24.04 LTS Desktop (free licence - GPL and others),0,https://ubuntu.com/download/desktop,2026-11-15
+webdev,Keyboard + mouse,Logitech MK270 wireless combo (920-004518),13910,Ftmarket.kz - https://e-katalog.kz/LOGITECH-WIRELESS-COMBO-MK270.htm,2026-11-15
+designer,CPU,Intel Core i5-14400 BOX (10 cores 6P+4E / 16 threads; UHD 730 iGPU; box cooler included),83018,Flexcom.kz - https://e-katalog.kz/INTEL-I5-14400-BOX.htm,2026-11-15
+designer,Motherboard,Gigabyte B760 DS3H DDR4 (ATX; 4x DDR4; 2x M.2),49587,Vendara.kz - https://e-katalog.kz/GIGABYTE-B760-DS3H-DDR4.htm,2026-11-15
+designer,Memory,G.Skill Flare X 32GB (2x16GB) DDR4-3200 CL16 F4-3200C16D-32GFX,131460,Forcecom.kz - https://e-katalog.kz/G-SKILL-F4-3200C16D-32GFX.htm,2026-11-15
+designer,GPU,ASUS GeForce RTX 5060 Dual OC 8GB (DUAL-RTX5060-O8G),288750,Direct Technologies - https://e-katalog.kz/ASUS-GEFORCE-RTX-5060-DUAL-OC-8GB.htm,2026-11-15
+designer,SSD,Kingston NV3 1TB NVMe PCIe 4.0 SNV3S/1000G,75157,Flexcom.kz - https://e-katalog.kz/KINGSTON-NV3.htm,2026-11-15
+designer,PSU,MSI MAG A650BN 650W 80+ Bronze,24300,Neom.kz - https://e-katalog.kz/MSI-MAG.htm,2026-11-15
+designer,Case,Ocypus Gamma C70 black (ATX midi tower),16580,Greenprice.kz - https://e-katalog.kz/OCYPUS-GAMMA-C70-BLACK.htm,2026-11-15
+designer,Monitor,ASUS BE27AQ 27in IPS 2560x1440 99% sRGB pivot stand,128724,Flexcom.kz - https://e-katalog.kz/ASUS-BE27AQ.htm,2026-11-15
+designer,OS licence,Windows 11 Professional 64-bit Russian DSP OEI DVD KZ-Only (FQC-10548),76980,cheapest of several listings on alfa.kz - https://alfa.kz/pc/soft/os/microsoft/oem,2026-11-15
+designer,Keyboard + mouse,Logitech MK270 wireless combo (920-004518),13910,Ftmarket.kz - https://e-katalog.kz/LOGITECH-WIRELESS-COMBO-MK270.htm,2026-11-15

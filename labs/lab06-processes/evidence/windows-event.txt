@@ -1,0 +1,4 @@
+TimeCreated : 11/17/2026 2:30:01 PM
+Id          : 2004
+Message     : Windows successfully diagnosed a low virtual memory condition. The following programs consumed the most virtual memory: powershell.exe (11052) consumed 9756540928
+              bytes, MsMpEng.exe (3396) consumed 321589248 bytes, and svchost.exe (5172) consumed 89460736 bytes.

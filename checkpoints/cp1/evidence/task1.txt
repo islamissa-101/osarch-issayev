@@ -1,0 +1,53 @@
+Evidence for Task 1a — output of PowerShell 7.7.0 on this computer
+
+PS C:\Windows\System32> Get-CimInstance Win32_Processor | Format-List Name, NumberOfCores, NumberOfLogicalProcessors, VMMonitorModeExtensions, VirtualizationFirmwareEnabled, SecondLevelAddressTranslationExtensions
+
+Name                                    : Intel(R) Core(TM) i7-14650HX
+NumberOfCores                           : 16
+NumberOfLogicalProcessors               : 24
+VMMonitorModeExtensions                 : False
+VirtualizationFirmwareEnabled           : False
+SecondLevelAddressTranslationExtensions : False
+
+PS C:\Windows\System32> (Get-ComputerInfo).HyperVisorPresent
+True
+
+PS C:\Windows\System32> systeminfo | Select-String "Hyper-V|гипервизор|hypervisor"
+
+Требования Hyper-V:                      Обнаружена низкоуровневая оболочка. Функции, необходимые для Hyper-V, отображены не будут.
+
+PS C:\Windows\System32> Get-CimInstance Win32_OperatingSystem | Format-List TotalVisibleMemorySize, FreePhysicalMemory
+
+TotalVisibleMemorySize : 33147576
+FreePhysicalMemory     : 21552084
+
+PS C:\Windows\System32> Get-Volume -DriveLetter C | Format-List Size, SizeRemaining
+
+Size          : 1023111327744
+SizeRemaining : 563116462080
+
+PS C:\Windows\System32> Get-PhysicalDisk | Format-List FriendlyName, MediaType, BusType, Size
+
+FriendlyName : NVMe WD PC SN5000S SDEQNSJ-1T00-1002
+MediaType    : SSD
+BusType      : NVMe
+Size         : 1024209543168
+
+PS C:\Windows\System32> Get-Disk | Format-List Number, FriendlyName, PartitionStyle
+
+Number         : 0
+FriendlyName   : NVMe WD PC SN5000S SDEQNSJ-1T00-1002
+PartitionStyle : GPT
+
+PS C:\Windows\System32> Get-CimInstance Win32_OperatingSystem | Format-List Caption, Version, BuildNumber, OSArchitecture
+
+Caption        : Майкрософт Windows 11 Домашняя
+Version        : 10.0.26300
+BuildNumber    : 26300
+OSArchitecture : 64-разрядная
+
+PS C:\Windows\System32> Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion' | Format-List DisplayVersion, CurrentBuild, UBR
+
+DisplayVersion : 26H2
+CurrentBuild   : 26300
+UBR            : 9974
